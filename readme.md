@@ -23,6 +23,7 @@ Fill config file with the following
         "",
         "",
         ]
+}
 
 ```
 Given `url_base` which you can generate by going to `vivareal` website and applying your filter, just copy the url generated, using `webdriverIO`, crawler will fetch all apartaments on each of the available pages, and then it will open each one of them only once, to fetch more details, and at the end it will generate an excel `.xlsx` with all the data for you.
